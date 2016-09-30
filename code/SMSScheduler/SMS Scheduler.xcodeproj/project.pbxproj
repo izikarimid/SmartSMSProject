@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2661D131CBEC56E00D4064B /* SMSAdvertisedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2661D121CBEC56E00D4064B /* SMSAdvertisedViewController.m */; };
+		E5E117C11D9553FC00DFE847 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E117C01D9553FC00DFE847 /* GoogleMobileAds.framework */; };
+		FE034C551BA6F2BB00E6972F /* SMS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE034C541BA6F2BB00E6972F /* SMS.m */; };
+		FE034C581BA6F3D400E6972F /* SMS+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FE034C571BA6F3D400E6972F /* SMS+CoreDataProperties.m */; };
+		FE034C5A1BA6F63000E6972F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE034C591BA6F63000E6972F /* UIKit.framework */; };
+		FE034C5C1BA6F67800E6972F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE034C5B1BA6F67800E6972F /* AddressBookUI.framework */; };
+		FE034C601BA6F6D000E6972F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE034C5F1BA6F6D000E6972F /* AddressBook.framework */; };
+		FE034C631BA6F7F100E6972F /* SMSNewSMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE034C621BA6F7F100E6972F /* SMSNewSMSViewController.m */; };
+		FE1E95131BA1B89B00724626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E95121BA1B89B00724626 /* main.m */; };
+		FE1E95161BA1B89B00724626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E95151BA1B89B00724626 /* AppDelegate.m */; };
+		FE1E951C1BA1B89B00724626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1E951A1BA1B89B00724626 /* Main.storyboard */; };
+		FE1E951F1BA1B89B00724626 /* SMS_Scheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE1E951D1BA1B89B00724626 /* SMS_Scheduler.xcdatamodeld */; };
+		FE1E95211BA1B89B00724626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1E95201BA1B89B00724626 /* Assets.xcassets */; };
+		FE1E95241BA1B89B00724626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1E95221BA1B89B00724626 /* LaunchScreen.storyboard */; };
+		FE1E952F1BA1B89B00724626 /* SMS_SchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E952E1BA1B89B00724626 /* SMS_SchedulerTests.m */; };
+		FE1E953A1BA1B89B00724626 /* SMS_SchedulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E95391BA1B89B00724626 /* SMS_SchedulerUITests.m */; };
+		FE1E95491BA1C28F00724626 /* SMSColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E95481BA1C28F00724626 /* SMSColors.m */; };
+		FE1E954D1BA1C5F400724626 /* SMSDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E954C1BA1C5F400724626 /* SMSDashboardViewController.m */; };
+		FE64E1231BB3F50600CDAE61 /* SMSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64E1211BB3F50600CDAE61 /* SMSTableViewCell.m */; };
+		FE64E1241BB3F50600CDAE61 /* SMSTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE64E1221BB3F50600CDAE61 /* SMSTableViewCell.xib */; };
+		FE7507371BB3D66A0049AFE7 /* SMSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7507361BB3D66A0049AFE7 /* SMSManager.m */; };
+		FE7655C81BD5277D006242E7 /* SMSPopUpMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7655C71BD5277D006242E7 /* SMSPopUpMenu.m */; };
+		FE8F9ED31BDE076F0061D15E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE8F9ED21BDE076F0061D15E /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE1E952B1BA1B89B00724626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1E95061BA1B89B00724626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1E950D1BA1B89B00724626;
+			remoteInfo = "SMS Scheduler";
+		};
+		FE1E95361BA1B89B00724626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1E95061BA1B89B00724626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1E950D1BA1B89B00724626;
+			remoteInfo = "SMS Scheduler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2661D111CBEC56E00D4064B /* SMSAdvertisedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSAdvertisedViewController.h; sourceTree = "<group>"; };
+		C2661D121CBEC56E00D4064B /* SMSAdvertisedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSAdvertisedViewController.m; sourceTree = "<group>"; };
+		E5E117C01D9553FC00DFE847 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FE034C531BA6F2BB00E6972F /* SMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMS.h; sourceTree = "<group>"; };
+		FE034C541BA6F2BB00E6972F /* SMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMS.m; sourceTree = "<group>"; };
+		FE034C561BA6F3D400E6972F /* SMS+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMS+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FE034C571BA6F3D400E6972F /* SMS+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SMS+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FE034C591BA6F63000E6972F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE034C5B1BA6F67800E6972F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		FE034C5F1BA6F6D000E6972F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FE034C611BA6F7F100E6972F /* SMSNewSMSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSNewSMSViewController.h; sourceTree = "<group>"; };
+		FE034C621BA6F7F100E6972F /* SMSNewSMSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSNewSMSViewController.m; sourceTree = "<group>"; };
+		FE1E950E1BA1B89B00724626 /* SMS Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMS Scheduler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1E95121BA1B89B00724626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE1E95141BA1B89B00724626 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE1E95151BA1B89B00724626 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE1E951B1BA1B89B00724626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE1E951E1BA1B89B00724626 /* SMS_Scheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMS_Scheduler.xcdatamodel; sourceTree = "<group>"; };
+		FE1E95201BA1B89B00724626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE1E95231BA1B89B00724626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE1E95251BA1B89B00724626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1E952A1BA1B89B00724626 /* SMS SchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMS SchedulerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1E952E1BA1B89B00724626 /* SMS_SchedulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMS_SchedulerTests.m; sourceTree = "<group>"; };
+		FE1E95301BA1B89B00724626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1E95351BA1B89B00724626 /* SMS SchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMS SchedulerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1E95391BA1B89B00724626 /* SMS_SchedulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMS_SchedulerUITests.m; sourceTree = "<group>"; };
+		FE1E953B1BA1B89B00724626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1E95471BA1C28F00724626 /* SMSColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSColors.h; sourceTree = "<group>"; };
+		FE1E95481BA1C28F00724626 /* SMSColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSColors.m; sourceTree = "<group>"; };
+		FE1E954B1BA1C5F400724626 /* SMSDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSDashboardViewController.h; sourceTree = "<group>"; };
+		FE1E954C1BA1C5F400724626 /* SMSDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSDashboardViewController.m; sourceTree = "<group>"; };
+		FE64E1201BB3F50600CDAE61 /* SMSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSTableViewCell.h; sourceTree = "<group>"; };
+		FE64E1211BB3F50600CDAE61 /* SMSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSTableViewCell.m; sourceTree = "<group>"; };
+		FE64E1221BB3F50600CDAE61 /* SMSTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMSTableViewCell.xib; sourceTree = "<group>"; };
+		FE7507351BB3D66A0049AFE7 /* SMSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSManager.h; sourceTree = "<group>"; };
+		FE7507361BB3D66A0049AFE7 /* SMSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSManager.m; sourceTree = "<group>"; };
+		FE7655C61BD5277D006242E7 /* SMSPopUpMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSPopUpMenu.h; sourceTree = "<group>"; };
+		FE7655C71BD5277D006242E7 /* SMSPopUpMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSPopUpMenu.m; sourceTree = "<group>"; };
+		FE7655C91BD528A6006242E7 /* SMSConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMSConstants.h; sourceTree = "<group>"; };
+		FE8F9ED21BDE076F0061D15E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FE9BD8441C035D440096D211 /* SMS_Scheduler 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SMS_Scheduler 2.xcdatamodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE1E950B1BA1B89B00724626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE034C601BA6F6D000E6972F /* AddressBook.framework in Frameworks */,
+				FE034C5C1BA6F67800E6972F /* AddressBookUI.framework in Frameworks */,
+				E5E117C11D9553FC00DFE847 /* GoogleMobileAds.framework in Frameworks */,
+				FE034C5A1BA6F63000E6972F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E95271BA1B89B00724626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E95321BA1B89B00724626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE1E95051BA1B89B00724626 = {
+			isa = PBXGroup;
+			children = (
+				E5E117C01D9553FC00DFE847 /* GoogleMobileAds.framework */,
+				FE034C5F1BA6F6D000E6972F /* AddressBook.framework */,
+				FE034C5B1BA6F67800E6972F /* AddressBookUI.framework */,
+				FE034C591BA6F63000E6972F /* UIKit.framework */,
+				FE1E95101BA1B89B00724626 /* SMS Scheduler */,
+				FE1E952D1BA1B89B00724626 /* SMS SchedulerTests */,
+				FE1E95381BA1B89B00724626 /* SMS SchedulerUITests */,
+				FE1E950F1BA1B89B00724626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE1E950F1BA1B89B00724626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E950E1BA1B89B00724626 /* SMS Scheduler.app */,
+				FE1E952A1BA1B89B00724626 /* SMS SchedulerTests.xctest */,
+				FE1E95351BA1B89B00724626 /* SMS SchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE1E95101BA1B89B00724626 /* SMS Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E95141BA1B89B00724626 /* AppDelegate.h */,
+				FE1E95151BA1B89B00724626 /* AppDelegate.m */,
+				FE7655C91BD528A6006242E7 /* SMSConstants.h */,
+				FE7507381BB3D6760049AFE7 /* Model */,
+				FE7507341BB3D64C0049AFE7 /* Controllers */,
+				FE1E954A1BA1C29400724626 /* misc */,
+				FE7507391BB3D68A0049AFE7 /* CoreData */,
+				FE64E1251BB3F50A00CDAE61 /* Views */,
+				FE1E951A1BA1B89B00724626 /* Main.storyboard */,
+				FE1E95201BA1B89B00724626 /* Assets.xcassets */,
+				FE1E95221BA1B89B00724626 /* LaunchScreen.storyboard */,
+				FE1E95251BA1B89B00724626 /* Info.plist */,
+				FE8F9ED21BDE076F0061D15E /* Localizable.strings */,
+				FE1E95111BA1B89B00724626 /* Supporting Files */,
+			);
+			path = "SMS Scheduler";
+			sourceTree = "<group>";
+		};
+		FE1E95111BA1B89B00724626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E95121BA1B89B00724626 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE1E952D1BA1B89B00724626 /* SMS SchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E952E1BA1B89B00724626 /* SMS_SchedulerTests.m */,
+				FE1E95301BA1B89B00724626 /* Info.plist */,
+			);
+			path = "SMS SchedulerTests";
+			sourceTree = "<group>";
+		};
+		FE1E95381BA1B89B00724626 /* SMS SchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E95391BA1B89B00724626 /* SMS_SchedulerUITests.m */,
+				FE1E953B1BA1B89B00724626 /* Info.plist */,
+			);
+			path = "SMS SchedulerUITests";
+			sourceTree = "<group>";
+		};
+		FE1E954A1BA1C29400724626 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E95471BA1C28F00724626 /* SMSColors.h */,
+				FE1E95481BA1C28F00724626 /* SMSColors.m */,
+			);
+			name = misc;
+			sourceTree = "<group>";
+		};
+		FE64E1251BB3F50A00CDAE61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE64E1201BB3F50600CDAE61 /* SMSTableViewCell.h */,
+				FE64E1211BB3F50600CDAE61 /* SMSTableViewCell.m */,
+				FE64E1221BB3F50600CDAE61 /* SMSTableViewCell.xib */,
+				FE7655C61BD5277D006242E7 /* SMSPopUpMenu.h */,
+				FE7655C71BD5277D006242E7 /* SMSPopUpMenu.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FE7507341BB3D64C0049AFE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E954B1BA1C5F400724626 /* SMSDashboardViewController.h */,
+				FE1E954C1BA1C5F400724626 /* SMSDashboardViewController.m */,
+				FE034C611BA6F7F100E6972F /* SMSNewSMSViewController.h */,
+				FE034C621BA6F7F100E6972F /* SMSNewSMSViewController.m */,
+				C2661D111CBEC56E00D4064B /* SMSAdvertisedViewController.h */,
+				C2661D121CBEC56E00D4064B /* SMSAdvertisedViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FE7507381BB3D6760049AFE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE7507351BB3D66A0049AFE7 /* SMSManager.h */,
+				FE7507361BB3D66A0049AFE7 /* SMSManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FE7507391BB3D68A0049AFE7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FE034C531BA6F2BB00E6972F /* SMS.h */,
+				FE034C541BA6F2BB00E6972F /* SMS.m */,
+				FE034C561BA6F3D400E6972F /* SMS+CoreDataProperties.h */,
+				FE034C571BA6F3D400E6972F /* SMS+CoreDataProperties.m */,
+				FE1E951D1BA1B89B00724626 /* SMS_Scheduler.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE1E950D1BA1B89B00724626 /* SMS Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1E953E1BA1B89B00724626 /* Build configuration list for PBXNativeTarget "SMS Scheduler" */;
+			buildPhases = (
+				FE1E950A1BA1B89B00724626 /* Sources */,
+				FE1E950B1BA1B89B00724626 /* Frameworks */,
+				FE1E950C1BA1B89B00724626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMS Scheduler";
+			productName = "SMS Scheduler";
+			productReference = FE1E950E1BA1B89B00724626 /* SMS Scheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE1E95291BA1B89B00724626 /* SMS SchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1E95411BA1B89B00724626 /* Build configuration list for PBXNativeTarget "SMS SchedulerTests" */;
+			buildPhases = (
+				FE1E95261BA1B89B00724626 /* Sources */,
+				FE1E95271BA1B89B00724626 /* Frameworks */,
+				FE1E95281BA1B89B00724626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1E952C1BA1B89B00724626 /* PBXTargetDependency */,
+			);
+			name = "SMS SchedulerTests";
+			productName = "SMS SchedulerTests";
+			productReference = FE1E952A1BA1B89B00724626 /* SMS SchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE1E95341BA1B89B00724626 /* SMS SchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1E95441BA1B89B00724626 /* Build configuration list for PBXNativeTarget "SMS SchedulerUITests" */;
+			buildPhases = (
+				FE1E95311BA1B89B00724626 /* Sources */,
+				FE1E95321BA1B89B00724626 /* Frameworks */,
+				FE1E95331BA1B89B00724626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1E95371BA1B89B00724626 /* PBXTargetDependency */,
+			);
+			name = "SMS SchedulerUITests";
+			productName = "SMS SchedulerUITests";
+			productReference = FE1E95351BA1B89B00724626 /* SMS SchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE1E95061BA1B89B00724626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = dmbTeam;
+				TargetAttributes = {
+					FE1E950D1BA1B89B00724626 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FE1E95291BA1B89B00724626 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FE1E950D1BA1B89B00724626;
+					};
+					FE1E95341BA1B89B00724626 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FE1E950D1BA1B89B00724626;
+					};
+				};
+			};
+			buildConfigurationList = FE1E95091BA1B89B00724626 /* Build configuration list for PBXProject "SMS Scheduler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE1E95051BA1B89B00724626;
+			productRefGroup = FE1E950F1BA1B89B00724626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE1E950D1BA1B89B00724626 /* SMS Scheduler */,
+				FE1E95291BA1B89B00724626 /* SMS SchedulerTests */,
+				FE1E95341BA1B89B00724626 /* SMS SchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE1E950C1BA1B89B00724626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8F9ED31BDE076F0061D15E /* Localizable.strings in Resources */,
+				FE1E95241BA1B89B00724626 /* LaunchScreen.storyboard in Resources */,
+				FE1E95211BA1B89B00724626 /* Assets.xcassets in Resources */,
+				FE1E951C1BA1B89B00724626 /* Main.storyboard in Resources */,
+				FE64E1241BB3F50600CDAE61 /* SMSTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E95281BA1B89B00724626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E95331BA1B89B00724626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE1E950A1BA1B89B00724626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7655C81BD5277D006242E7 /* SMSPopUpMenu.m in Sources */,
+				FE1E954D1BA1C5F400724626 /* SMSDashboardViewController.m in Sources */,
+				FE64E1231BB3F50600CDAE61 /* SMSTableViewCell.m in Sources */,
+				FE1E95491BA1C28F00724626 /* SMSColors.m in Sources */,
+				FE034C581BA6F3D400E6972F /* SMS+CoreDataProperties.m in Sources */,
+				FE7507371BB3D66A0049AFE7 /* SMSManager.m in Sources */,
+				FE1E95161BA1B89B00724626 /* AppDelegate.m in Sources */,
+				FE034C551BA6F2BB00E6972F /* SMS.m in Sources */,
+				C2661D131CBEC56E00D4064B /* SMSAdvertisedViewController.m in Sources */,
+				FE034C631BA6F7F100E6972F /* SMSNewSMSViewController.m in Sources */,
+				FE1E95131BA1B89B00724626 /* main.m in Sources */,
+				FE1E951F1BA1B89B00724626 /* SMS_Scheduler.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E95261BA1B89B00724626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1E952F1BA1B89B00724626 /* SMS_SchedulerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E95311BA1B89B00724626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1E953A1BA1B89B00724626 /* SMS_SchedulerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE1E952C1BA1B89B00724626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1E950D1BA1B89B00724626 /* SMS Scheduler */;
+			targetProxy = FE1E952B1BA1B89B00724626 /* PBXContainerItemProxy */;
+		};
+		FE1E95371BA1B89B00724626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1E950D1BA1B89B00724626 /* SMS Scheduler */;
+			targetProxy = FE1E95361BA1B89B00724626 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE1E951A1BA1B89B00724626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1E951B1BA1B89B00724626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE1E95221BA1B89B00724626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1E95231BA1B89B00724626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE1E953C1BA1B89B00724626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE1E953D1BA1B89B00724626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE1E953F1BA1B89B00724626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "SMS Scheduler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.strathmore.91775.SMS-Scheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE1E95401BA1B89B00724626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "SMS Scheduler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.strathmore.91775.SMS-Scheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE1E95421BA1B89B00724626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SMS SchedulerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dmbTeam.SMS-SchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS Scheduler.app/SMS Scheduler";
+			};
+			name = Debug;
+		};
+		FE1E95431BA1B89B00724626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SMS SchedulerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dmbTeam.SMS-SchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS Scheduler.app/SMS Scheduler";
+			};
+			name = Release;
+		};
+		FE1E95451BA1B89B00724626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SMS SchedulerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dmbTeam.SMS-SchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SMS Scheduler";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FE1E95461BA1B89B00724626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SMS SchedulerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dmbTeam.SMS-SchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SMS Scheduler";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE1E95091BA1B89B00724626 /* Build configuration list for PBXProject "SMS Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1E953C1BA1B89B00724626 /* Debug */,
+				FE1E953D1BA1B89B00724626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1E953E1BA1B89B00724626 /* Build configuration list for PBXNativeTarget "SMS Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1E953F1BA1B89B00724626 /* Debug */,
+				FE1E95401BA1B89B00724626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1E95411BA1B89B00724626 /* Build configuration list for PBXNativeTarget "SMS SchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1E95421BA1B89B00724626 /* Debug */,
+				FE1E95431BA1B89B00724626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1E95441BA1B89B00724626 /* Build configuration list for PBXNativeTarget "SMS SchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1E95451BA1B89B00724626 /* Debug */,
+				FE1E95461BA1B89B00724626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE1E951D1BA1B89B00724626 /* SMS_Scheduler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE9BD8441C035D440096D211 /* SMS_Scheduler 2.xcdatamodel */,
+				FE1E951E1BA1B89B00724626 /* SMS_Scheduler.xcdatamodel */,
+			);
+			currentVersion = FE9BD8441C035D440096D211 /* SMS_Scheduler 2.xcdatamodel */;
+			path = SMS_Scheduler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE1E95061BA1B89B00724626 /* Project object */;
+}
