@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="SMS" representedClassName="SMS" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="recepientName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recepientNumbers" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="sent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SMS" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
