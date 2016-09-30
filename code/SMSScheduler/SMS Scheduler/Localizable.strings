@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  SMS Scheduler
+
+  Copyright © 2015 dmbTeam. All rights reserved.
+*/
+
+// Change the value after = and between the " " to the desired text
+
+"DashboardTitleKey" = "Dashboard";
+"ContactDateMessageTitleKey" = "Contact, Date, Message";
+"RateAppKey" = "Rate App";
+"DeleteKey" = "Delete";
+"SendKey" = "Send";
+"CancelKey" = "Cancel";
+"NoScheduledSMSKey" = "No Scheduled SMS";
+"NoSentSMSKey" = "No Sent SMS";
+"TypeNumberorAddContactKey" = "Type Number or Add Contact";
+"TypeYourMessageKey" = "Type your message";
+"AddDateKey" = "Add Date";
+"FailedToSendSMSKey" = "Failed to send SMS!";
+"SMSNotSupportedKey" = "Your device doesn't support SMS!";
+"SendSMSToKey" = "Send your SMS to ";
+"NotSentKey" = "Not Sent!";
+"EmptyStateMessageKey" = "Schedule SMS - It's So Simple";
+"ScheduleKey" = "Schedule";
+"ScheduledKey" = "Scheduled";
+"SentKey" = "Sent";
+"RepeatKey" = "Repeat";
+"NeverRepeatKey" = "Never";
+"DailyRepeatKey" = "Daily";
+"WeeklyRepeatKey" = "Weekly";
+"MonthlyRepeatKey" = "Monthly";
+"YearlyRepeatKey" = "Yearly";
+"DailyShortKey" = "D";
+"WeeklyShortKey" = "W";
+"MonthlyShortKey" = "M";
+"YearlyShortKey" = "Y";
+"SMSSchedulerKeyy" = "Smart SMS";
